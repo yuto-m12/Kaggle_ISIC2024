@@ -1,0 +1,6 @@
+in 6chan with saturation and luminosity
+aux loss
+existing lesion_id or not (strong label by histopathology assessment ot weak label by doctor's see)
+GeM(image only notebook)
+t-SNE context: to prove this, plot before and after training (try also fully unfreeze, partial unfreeze, etc) https://www.kaggle.com/competitions/isic-2024-challenge/discussion/521366
+
