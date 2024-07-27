@@ -1,0 +1,19 @@
+fold5
+epc9
+
+in_chan 6
+
+only lesion_id exist(strong)
+
+inter linear
+
+// gemPool instead of adaptive2dPool
+
+size 224
+
+bs 256
+
+CV: Micro-averaged One-vs-Rest ROC AUC score:
+0.0882519795
+LB:
+0.097

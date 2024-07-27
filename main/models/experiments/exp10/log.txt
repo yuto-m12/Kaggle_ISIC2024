@@ -1,0 +1,29 @@
+fold5
+epc9
+
+in_chan 6
+
+@ // only lesion_id exist(strong)
+
+inter linear
+
+// gemPool instead of adaptive2dPool
+
+size 224
+
+@ bs 128
+
+pretrained
+
+change normalization(use from albumentation)
+add augmentation
+@ change augmentation
+
+delete clothes
+
+
+
+[(0, 8, 0.032722142789195975), (1, 9, 0.03908019224813291), (2, 8, 0.036080041089635424), (3, 8, 0.03878928719466623), (4, 9, 0.03626451234174267)]
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1883506101
+
+LB: 0.137

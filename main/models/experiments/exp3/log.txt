@@ -1,0 +1,10 @@
+fold5
+epc9
+
+in_chan 6
+
+only lesion_id exist(strong)
+
+inter linear
+
+cv: 0.0921303635

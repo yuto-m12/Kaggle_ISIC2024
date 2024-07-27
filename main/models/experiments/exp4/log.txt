@@ -1,0 +1,15 @@
+fold5
+epc9
+
+in_chan 6
+
+only lesion_id exist(strong)
+
+inter linear
+
+// gemPool instead of adaptive2dPool
+
+size 384
+
+cv: 0.0890591349
+lb: 0.093

@@ -1,0 +1,7 @@
+fold5
+epc9
+
+resnet18.a1_in1k
+
+cv: 0.0993823750
+lb: 0.092

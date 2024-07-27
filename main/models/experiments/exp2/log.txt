@@ -1,0 +1,9 @@
+fold5
+epc9
+
+in_chan 6
+
+inter linear
+
+CV: 0.0956752344
+LB: 0.106

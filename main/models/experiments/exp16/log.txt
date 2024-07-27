@@ -1,0 +1,31 @@
+fold5
+epc9
+
+in_chan 6
+
+only lesion_id exist(strong)
+
+inter linear
+
+// gemPool instead of adaptive2dPool
+
+size 224
+
+bs 128
+
+// pretrained(timm)
+pretrained model with all ISIC's databank(transfer learning)
+
+change normalization(use from albumentation)
+add augmentation
+change augmentation
+
+delete clothes + others
+
+@ oversampling 5%
+
+efficientnetb3 jit ns
+
+
+[(0, 1, 0.19817225058232585), (1, 4, 0.17340656833197826), (2, 1, 0.21161249593684547), (3, 3, 0.16548082325607538), (4, 2, 0.15441443354479575)]
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1145787900
