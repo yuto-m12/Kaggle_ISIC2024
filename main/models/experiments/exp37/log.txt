@@ -1,0 +1,71 @@
+fold5
+epc9
+
+in_chan 6
+
+only lesion_id exist(strong)
+
+inter linear
+// INTER_CUBIC
+
+// gemPool instead of adaptive2dPool
+
+size 224
+
+@ bs 32
+
+pretrained(timm)
+// pretrained model with all ISIC's databank(transfer learning)
+
+change normalization(use from albumentation)
+add augmentation
+change augmentation
+
+delete clothes + others
+
+// oversampling 3%
+// add augmentation
+
+
+
+change dataroader when 60% + 
+
+efficientnetb3 jit ns + 
+
+standardization + 
+
+// maxvit_pico
+@ //maxvit_nano
+@ maxvit_small
+
+alldata
+
+// change model to effinetb3 from maxvit_pico
+maxvit_pico
+
+// use all_isic_archive_data
+// 2nd stage learning(from all_isic as 1st)
+
+few 100000 data training, epoch8, folds2
+
+exp: 26
+[(0, 9, 0.007407748974671041), (1, 8, 0.005083631775440041), (2, 8, 0.0050011909530113755), (3, 9, 0.005148862210015156), (4, 8, 0.0062202491074530705)]
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1474212628
+exp: 31
+[]
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1365987770
+exp: 32
+[(0, 7, 0.03669382147602347), (1, 7, 0.029824026891417655), (2, 8, 0.0318182876766918), (3, 7, 0.03125911973612873), (4, 7, 0.030896456380719906)]
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1904237798
+exp: 34
+[(0, 1, 0.022153528954307767), (1, 2, 0.018928352688119342)]
+exp: 34
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1493025631
+exp: 35
+[(0, 5, 0.02374568646966716), (1, 8, 0.020792865157927002)]
+exp: 35
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1320937080
+exp: 37
+[(0, 5, 0.02426105056747003), (1, 4, 0.020833653661595508)]
+exp: 37
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1194396794

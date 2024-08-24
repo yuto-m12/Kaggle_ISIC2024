@@ -22,7 +22,7 @@ change augmentation
 
 delete clothes + others
 
-oversampling 5%
+@ oversampling 3%
 add augmentation
 
 change dataroader when 60%
@@ -30,3 +30,6 @@ change dataroader when 60%
 efficientnetb3 jit ns
 
 @ standardization
+
+[(0, 4, 0.12748244839409986), (1, 5, 0.11875314500771071), (2, 1, 0.13288207931091656), (3, 7, 0.11684404978794712), (4, 4, 0.11668558801348144)]
+CV: Micro-averaged One-vs-Rest ROC AUC score: 0.1300874961

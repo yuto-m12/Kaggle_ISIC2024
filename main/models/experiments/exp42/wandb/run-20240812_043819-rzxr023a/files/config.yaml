@@ -1,0 +1,149 @@
+wandb_version: 1
+
+es_patience:
+  desc: null
+  value: 5
+batch_size:
+  desc: null
+  value: 128
+max_epoch:
+  desc: null
+  value: 8
+n_folds:
+  desc: null
+  value: 2
+n_classes:
+  desc: null
+  value: 2
+random_seed:
+  desc: null
+  value: 42
+lr:
+  desc: null
+  value: 0.0001
+weight_decay:
+  desc: null
+  value: 0.01
+deterministic:
+  desc: null
+  value: true
+enable_amp:
+  desc: null
+  value: true
+view:
+  desc: null
+  value: true
+change_dataset:
+  desc: null
+  value: true
+standardization:
+  desc: null
+  value: true
+oversampling:
+  desc: null
+  value: false
+oversampling_percent:
+  desc: null
+  value: 3
+only_lesion_id:
+  desc: null
+  value: false
+alldata_isic_archive:
+  desc: null
+  value: false
+test_of_averaged_model:
+  desc: null
+  value: false
+train_with_fewdata:
+  desc: null
+  value: 100000
+pretrained:
+  desc: null
+  value: true
+TTA:
+  desc: null
+  value: true
+TTA_rate:
+  desc: null
+  value:
+    None: 0.7
+    with_train_aug: 0.3
+model_name:
+  desc: null
+  value: maxvit_rmlp_pico_rw_256.sw_in1k
+output_dim_models:
+  desc: null
+  value:
+    resnet18.a1_in1k: 512
+    efficientnet_b0.ra_in1k: 320
+    tf_efficientnet_b0.ns_jft_in1k: 1280
+    tf_efficientnet_b3.ns_jft_in1k: 1536
+    eva02_large_patch14_224.mim_in22k: 384
+    eva02_large_patch14_448.mim_m38m_ft_in22k_in1k: 384
+    maxvit_tiny_tf_224.in1k: 256
+    maxvit_rmlp_nano_rw_256.sw_in1k: 256
+    maxvit_rmlp_pico_rw_256.sw_in1k: 256
+    maxvit_small_tf_224.in1k: 256
+img_size:
+  desc: null
+  value: 256
+interpolation:
+  desc: null
+  value: 1
+AUX_LOSS:
+  desc: null
+  value: false
+use_tabler:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.17.0
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    start_time: 1723437499
+    t:
+      1:
+      - 1
+      - 5
+      - 6
+      - 7
+      - 8
+      - 35
+      - 41
+      - 49
+      - 53
+      - 54
+      - 55
+      - 63
+      - 80
+      - 105
+      2:
+      - 1
+      - 5
+      - 6
+      - 7
+      - 8
+      - 35
+      - 41
+      - 49
+      - 53
+      - 54
+      - 55
+      - 63
+      - 80
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.13
+      5: 0.17.0
+      8:
+      - 1
+      - 2
+      - 5
+      13: linux-x86_64

@@ -1,0 +1,15 @@
+{
+  "id": "moyuto/isic2024-exp1",
+  "title": "isic2024-exp1",
+  "code_file": "CNN_train_exp1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": ["moyuto/isic2024-baseline"],
+  "competition_sources": ["isic-2024-challenge"],
+  "kernel_sources": [],
+  "model_sources": []
+}
