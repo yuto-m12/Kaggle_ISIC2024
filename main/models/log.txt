@@ -1,0 +1,6 @@
+fold2
+epc2
+
+resnet18.a1_in1k
+
+oof cv: 0.0773510648

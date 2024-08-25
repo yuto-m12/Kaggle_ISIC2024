@@ -1,6 +1,58 @@
 in 6chan with saturation and luminosity
-aux loss
 existing lesion_id or not (strong label by histopathology assessment ot weak label by doctor's see)
+augmentation
+
+
+- todo in rest term
+trying upsample, another TTA(like x8)
+another backbone with all image pretrain(about more 3 or 2 model)
+ensemble above model with 1.79 tabler masterwork and 1.84(max) tabler model.
+
+
+- High priority(for high performance, from the most influential. This is truth, isn't??????)
+auxiliary loss
+merge table NN and cnn
+eva
+lgbm 
+vit
+self supervised learning(because few data)
+downsampling or class weihts
+pretrain to public eva02 with all_isic
+
+- high perform but take a lot of time
+more epoch
+all data 
+try no amp
+
+- element
+use entmax instead of softmax
+oversampling malignant with augmentation 
+change normalization type(value range fits to min~max?)
+aux loss
 GeM(image only notebook)
 t-SNE context: to prove this, plot before and after training (try also fully unfreeze, partial unfreeze, etc) https://www.kaggle.com/competitions/isic-2024-challenge/discussion/521366
+cosine annealing with warmup
+other network
+ensemble
+lgbm/xgb
+normalization
+additonal data
+TTA
+11th soluiton's methods
+create 3 model for "Basal cell carcinoma", "Squamous cell carcinoma", "Melanoma" because the dataset has only these three type malignant.
+medamaba
+VIT
+missing value processing
+self supervised learning as pre-training
+online learning?
+standardization, or normalization (0 to 1)
+8:2 by over sampling or self-supervised learning
+make two cv 2024 and all
+noisy student
+so many efficientnet (25th solution of ISIC2020)
+
+1. grab efficient self-supervised learning
+2. training image features with some cnn
+3. freeze cnn and just train linear classifier(works as head of some models)
+
 
