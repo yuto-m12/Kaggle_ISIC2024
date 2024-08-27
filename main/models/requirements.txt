@@ -4,17 +4,18 @@ opencv-python
 h5py
 imblearn
 lightgbm
-matplotlib
-numpy
+# matplotlib
+# numpy
 optuna
-pandas
+# pandas
 Pillow
 polars
 scikit-learn
 timm
-torch
-torchvision
+# torch
+# torchvision
 tqdm
 typing
 wandb
 xgboost
+pyarrow
