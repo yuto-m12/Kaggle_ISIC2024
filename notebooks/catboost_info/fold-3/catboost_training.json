@@ -1,0 +1,16 @@
+{
+"meta":{"test_sets":["test"],"test_metrics":[{"best_value":"Max","name":"Accuracy"},{"best_value":"Min","name":"Logloss"}],"learn_metrics":[{"best_value":"Max","name":"Accuracy"},{"best_value":"Min","name":"Logloss"}],"launch_mode":"Train","parameters":"","iteration_count":100,"learn_sets":["learn"],"name":"experiment"},
+"iterations":[
+{"learn":[0.9285714286,0.5563706926],"iteration":0,"passed_time":0.0007597392058,"remaining_time":0.07521418137,"test":[0.989010989,0.5291339101]},
+{"learn":[0.9340659341,0.456161973],"iteration":1,"passed_time":0.001882772269,"remaining_time":0.09225584118,"test":[1,0.4114015903]},
+{"learn":[0.9505494505,0.3813625366],"iteration":2,"passed_time":0.002625840553,"remaining_time":0.08490217787,"test":[1,0.3371568535]},
+{"learn":[0.9505494505,0.3268870774],"iteration":3,"passed_time":0.003398373489,"remaining_time":0.08156096373,"test":[1,0.2790376684]},
+{"learn":[0.9587912088,0.2825085679],"iteration":4,"passed_time":0.004103811975,"remaining_time":0.07797242752,"test":[1,0.2357585925]},
+{"learn":[0.967032967,0.2416795116],"iteration":5,"passed_time":0.004813217819,"remaining_time":0.07540707917,"test":[0.989010989,0.1948642484]},
+{"learn":[0.9725274725,0.2056067395],"iteration":6,"passed_time":0.005499090013,"remaining_time":0.07305933874,"test":[1,0.1609857997]},
+{"learn":[0.9752747253,0.1846867045],"iteration":7,"passed_time":0.006210499574,"remaining_time":0.0714207451,"test":[1,0.1418962464]},
+{"learn":[0.978021978,0.1635582068],"iteration":8,"passed_time":0.00690504786,"remaining_time":0.06981770614,"test":[1,0.1239337609]},
+{"learn":[0.9835164835,0.1455179439],"iteration":9,"passed_time":0.007602391331,"remaining_time":0.06842152198,"test":[0.989010989,0.1087401785]},
+{"learn":[0.9835164835,0.1334121871],"iteration":10,"passed_time":0.008284817132,"remaining_time":0.06703170225,"test":[0.989010989,0.09854697454]},
+{"learn":[0.9835164835,0.120219336],"iteration":11,"passed_time":0.00898783112,"remaining_time":0.06591076155,"test":[0.989010989,0.0867217591]}
+]}

@@ -1,0 +1,127 @@
+{
+    "os": "Linux-6.8.0-39-generic-x86_64-with-glibc2.31",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-08-05T10:08:31.246885",
+    "startedAt": "2024-08-05T10:08:24.482667",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://yuto-m12:@github.com/yuto-m12/Kaggle_ISIC2024.git",
+        "commit": "4eda842c633898f12daf14d38b9f788faf7960f3"
+    },
+    "email": "yuull3x@gmail.com",
+    "root": "/root/Development/Kaggle/ISIC2024",
+    "host": "e75050ea8474",
+    "username": "root",
+    "executable": "/opt/conda/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2798.589,
+        "min": 545.0,
+        "max": 5050.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 545.0,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 4219.899,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 3589.485,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 545.0,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 4107.898,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 4177.734,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 545.0,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 545.0,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 4284.355,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 4371.19,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 3660.306,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 3840.113,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 545.0,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 545.0,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 4391.201,
+            "min": 545.0,
+            "max": 5050.0
+        },
+        {
+            "current": 3449.206,
+            "min": 545.0,
+            "max": 5050.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1831.6662673950195,
+            "used": 479.4612045288086
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 62.41455841064453
+    }
+}

@@ -1,5 +1,9 @@
 # Data
 /data/
+/main/models/experiments/exp*/outputs/
+# /main/models/experiments/exp*/outputs/*.parquet
+/references
+/notebooks/data/
 
 # Mac OS-specific storage files
 .DS_Store
