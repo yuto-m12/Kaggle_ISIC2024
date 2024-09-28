@@ -2,16 +2,10 @@
 
 
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
 A short description of the project.  
 
-・The final notebook:  
- https://github.com/yuto-m12/Kaggle_ISIC2024/blob/main/main/models/experiments/exp56/CNN_train_exp56.ipynb  
-(・Actually used notebook for submission:)  
- https://github.com/yuto-m12/Kaggle_ISIC2024/blob/main/main/models/experiments/exp48/CNN_train_exp48.ipynb
+・The main notebook is [here](https://github.com/yuto-m12/Kaggle_ISIC2024/blob/main/main/models/experiments/exp48/CNN_train_exp48.ipynb). (submitted)
+
 
 ## Project Organization
 
