@@ -3,7 +3,7 @@
 
 
 For [Kaggle ISIC2024 competition](https://www.kaggle.com/competitions/isic-2024-challenge/).<br>
-Main file is [here](https://github.com/yuto-m12/Kaggle_ISIC2024/blob/main/main/models/experiments/exp48/CNN_train_exp48.ipynb), one notebook has both of training and inference.
+The main file is [here](https://github.com/yuto-m12/Kaggle_ISIC2024/blob/main/main/models/experiments/exp48/CNN_train_exp48.ipynb), one notebook has both of training and inference.
 
 I created a summary of this competition: [Summary](https://zenn.dev/yuto_mo/articles/9366013cba8d11)
 
